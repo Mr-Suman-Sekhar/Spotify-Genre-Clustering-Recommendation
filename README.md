@@ -1,10 +1,10 @@
-#Spotify Songs' Genre Segmentation and Recommendation Engine
+Spotify Songs' Genre Segmentation and Recommendation Engine
 
-#Project Overview
+Project Overview
 
 This project analyzes a dataset of Spotify songs to automatically segment them into distinct auditory clusters based purely on how they sound, without relying on human-assigned genres. Using these clusters, I built a recommendation engine that suggests new songs based on the audio features of a track you already enjoy.
 
-#Features
+Features
 
 Data Cleaning & Scaling: Handled missing values, removed duplicates, and standardized audio features (like tempo, energy, and acousticness).
 
@@ -18,7 +18,7 @@ Dimensionality Reduction (PCA): Visualized the 9-dimensional audio features on a
 
 Recommendation Engine: Built a fast cosine-similarity engine that finds the 5 closest sounding songs to any given input within its specific cluster.
 
-#Tools & Libraries Used
+Tools & Libraries Used
 
 Python: The core programming language.
 
@@ -28,7 +28,7 @@ Matplotlib & Seaborn: For drawing graphs and heatmaps.
 
 Scikit-Learn: For K-Means clustering, PCA, and Cosine Similarity calculations.
 
-#How to Run
+How to Run
 
 Clone this repository.
 
